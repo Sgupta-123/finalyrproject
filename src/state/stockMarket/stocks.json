@@ -142,5 +142,11 @@
     "value": 2001.00,
     "volatility": 1,
     "type": "Finance"
+  },
+  {
+    "name": "wipro",
+    "value": 382.00,
+    "volatility": 2,
+    "type": "Technology"
   }
 ]

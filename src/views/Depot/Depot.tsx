@@ -22,7 +22,7 @@ class Depot extends React.Component<DepotProps> {
         const {stockCategoryValues, accountValue, stockValue, stockValueDevelopment, stocks} = this.props;
 
         return (
-            <div className="content">
+            <div className="content"  >
                 <Grid fluid={true}>
                     <Row>
                         <Col lg={4} sm={6} xs={12}>

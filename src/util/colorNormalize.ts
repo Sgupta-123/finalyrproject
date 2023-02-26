@@ -4,7 +4,7 @@ import { StockType } from '../state/AppState';
 export const getColor = (type: StockType): string => {
     switch (type) {
         case 'Fire Arms':
-            return '#EE2D20';
+            return 'yellow';
         case 'Energy':
             return '#87CB16';
         case 'Finance':
@@ -12,7 +12,7 @@ export const getColor = (type: StockType): string => {
         case 'Raw Materials':
             return '#FF9500';
         case 'Technology':
-            return '#3472F7';
+            return 'black';
         default:
             return 'notFound';
     }

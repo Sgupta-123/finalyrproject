@@ -20,7 +20,7 @@ export default class FinancialDevelopmentChart extends React.PureComponent<Finan
                 <AreaChart data={valueHistory}>
                     <defs>
                         <linearGradient id="colorStock" x1="0" y1="0" x2="0" y2="1">
-                            <stop offset="5%" stopColor="#3472F7" stopOpacity={0.9}/>
+                            <stop offset="5%" stopColor="yellow" stopOpacity={0.9}/>
                         </linearGradient>
                     </defs>
                     <CartesianGrid strokeDasharray="3 3"/>

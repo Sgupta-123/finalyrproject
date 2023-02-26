@@ -19,7 +19,7 @@ class StockBalanceCard extends React.Component<StockBalanceTileProps, StockBalan
         return (
             <StatusCard
                 icon={<i className="pe-7s-graph2 text-warning"/>}
-                title="Stock Balance"
+                title="virtual Stock Balance"
                 value={<PriceTag value={this.props.value}/>}
                 noFooter={true}
             />

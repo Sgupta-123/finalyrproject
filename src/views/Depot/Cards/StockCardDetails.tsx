@@ -13,8 +13,8 @@ export class StockCardDetails extends React.PureComponent<StockCardDetailsProps>
         const {quantity, price, name} = this.props;
 
         return (
-            <div>
-                <h4 style={{marginBottom: '0.5em'}} className="title text-underline">
+            <div >
+                <h4 style={{marginBottom: '2.5em'}} className="title text-underline">
                     {name}
                 </h4>
                 <table>

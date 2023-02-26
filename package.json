@@ -32,7 +32,7 @@
     "react-notification-system": "^0.4.0",
     "react-redux": "^7.2.1",
     "react-router-dom": "^5.2.0",
-    "react-scripts-ts": "3.1.0",
+    "react-scripts-ts": "^3.1.0",
     "recharts": "^1.8.5",
     "redux": "^4.0.5",
     "redux-persist": "^6.0.0",

@@ -101,7 +101,7 @@ function* buyOrSellStocks(action: BuyOrSellStockAction) {
     if (accountValue < totalStockBuyValue) {
         addNotification({
             level: 'error',
-            message: 'Not enough Money'
+            message: 'Not enough virtual Money'
         });
         return;
     }

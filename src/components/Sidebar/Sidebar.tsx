@@ -41,7 +41,7 @@ export class Sidebar extends React.Component<SidebarProps, SidebarState> {
 
                 </a>
                 <a href="/" className="simple-text logo-normal">
-                    Stockmarket
+                     Virtual Stockmarket
                 </a>
             </div>
         );
@@ -50,7 +50,7 @@ export class Sidebar extends React.Component<SidebarProps, SidebarState> {
     render() {
 
         return (
-            <div id="sidebar" className="sidebar" data-color="black">
+            <div id="sidebar" className="sidebar" data-color="blue">
                 {this.renderLogo()}
 
                 <div className="sidebar-wrapper">
@@ -59,8 +59,8 @@ export class Sidebar extends React.Component<SidebarProps, SidebarState> {
                         <li>
                             <hr className="currentBalance-hr"/>
                             <p className="currentBalance-p">
-                                Account Balance: <PriceTag value={this.props.currentBalance}/><br/>
-                                Stock Balance: <PriceTag value={this.props.currentStockBalance}/>
+                               Virtual Account Balance: <PriceTag value={this.props.currentBalance}/><br/>
+                                Virtual Stock Balance: <PriceTag value={this.props.currentStockBalance}/>
                             </p>
                         </li>
                     </ul>

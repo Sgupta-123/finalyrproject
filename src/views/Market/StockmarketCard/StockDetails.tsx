@@ -54,7 +54,7 @@ export class StockDetails extends React.Component<StockDetailsProps> {
                     </td>
                 </tr>
                 <tr className="small-padding-top">
-                    <td className="bold">Owning:</td>
+                    <td className="bold">Ownings:</td>
                     <td className="stockDetails">{stock.quantity}</td>
                 </tr>
                 </tbody>
