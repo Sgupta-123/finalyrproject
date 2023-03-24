@@ -148,5 +148,11 @@
     "value": 382.00,
     "volatility": 2,
     "type": "Technology"
+  },
+  {
+    "name": "infosys",
+    "value": 382.01,
+    "volatility": 2,
+    "type": "Technology"
   }
 ]

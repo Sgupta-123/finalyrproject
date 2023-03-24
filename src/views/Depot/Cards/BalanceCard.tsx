@@ -18,8 +18,8 @@ class BalanceCard extends React.Component<BalanceTileProps, BalanceTileState> {
     render() {
         return (
             <StatusCard
-                icon={<i className="pe-7s-piggy text-success"/>}
-                title="Virtual Account Balance"
+                icon={<i className="pe-7s-pigg text-success"/>}
+                title="Virtual Account Balance "
                 value={<PriceTag value={this.props.value}/>}
                 noFooter={true}
             />

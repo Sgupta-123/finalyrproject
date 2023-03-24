@@ -8,7 +8,7 @@ import {
 } from './depotActions';
 
 const initialState: DepotState = {
-    accountValue: 100000,
+    accountValue: 10000,
     stockValueDevelopment: []
 };
 
